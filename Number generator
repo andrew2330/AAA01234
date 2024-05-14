@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-egde">
+    <title> La pagina de numero ramdom </title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale-1">
+<link' rel="stylesheet" href="Style.css">
+</head>
+<Body>
+    <form>
+        <p>Min: 0</p>
+    Max: <input type="text" id="num">
+    <input type="button" onclick="RandomNumber()" value="generate">
+    </form>
+    <p>Your ramdom number: <span id="result"></span></p>
+    <script src="scrpit.js" async defer></script>
+</Body>
+</html>
